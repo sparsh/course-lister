@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const Description = (props) => (
-    <h4>{props.text}</h4>
+    <h3>{props.text}</h3>
 );
 
 

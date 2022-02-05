@@ -1,0 +1,104 @@
+{
+
+    "section" : [{
+        "sectionName" : "Technology",
+        "courseList" : [
+            {
+                "name" : "Machine Learning",
+                "description" : "Machine learning (ML) is the study of computer ",
+                "img" : "https://images.newscientist.com/wp-content/uploads/2021/04/21160754/21-april_pepper-the-robot.jpg"
+            },
+            {
+                "name" : "Artificial Intelligence",
+                "description" : "Machine learning (ML) is the study of computer ",
+                "img" : "https://images.newscientist.com/wp-content/uploads/2021/04/21160754/21-april_pepper-the-robot.jpg"
+            },
+            {
+                "name" : "Virtual Reality",
+                "description" : "Machine learning (ML) is the study of computer ",
+                "img" : "https://images.newscientist.com/wp-content/uploads/2021/04/21160754/21-april_pepper-the-robot.jpg"
+            },
+            {
+                "name" : "Augmented Reality",
+                "description" : "Machine learning (ML) is the study of computer ",
+                "img" : "https://images.newscientist.com/wp-content/uploads/2021/04/21160754/21-april_pepper-the-robot.jpg"
+            },
+            {
+                "name" : "Meta Verse",
+                "description" : "Machine learning (ML) is the study of computer ",
+                "img" : "https://images.newscientist.com/wp-content/uploads/2021/04/21160754/21-april_pepper-the-robot.jpg"
+            },
+            {
+                "name" : "Blockchain",
+                "description" : "Machine learning (ML) is the study of computer ",
+                "img" : "https://images.newscientist.com/wp-content/uploads/2021/04/21160754/21-april_pepper-the-robot.jpg"
+            },
+            {
+                "name" : "Supplychain",
+                "description" : "Machine learning (ML) is the study of computer ",
+                "img" : "https://images.newscientist.com/wp-content/uploads/2021/04/21160754/21-april_pepper-the-robot.jpg"
+            },
+            {
+                "name" : "Cryptocurrincy",
+                "description" : "Machine learning (ML) is the study of computer ",
+                "img" : "https://images.newscientist.com/wp-content/uploads/2021/04/21160754/21-april_pepper-the-robot.jpg"
+            },
+            {
+                "name" : "Robotics",
+                "description" : "Machine learning (ML) is the study of computer ",
+                "img" : "https://images.newscientist.com/wp-content/uploads/2021/04/21160754/21-april_pepper-the-robot.jpg"
+            }
+        ]
+    },
+    {
+        "sectionName" : "Education",
+        "courseList" : [
+            {
+                "name" : "Machine Learning",
+                "description" : "Machine learning (ML) is the study of computer ",
+                "img" : "https://images.newscientist.com/wp-content/uploads/2021/04/21160754/21-april_pepper-the-robot.jpg"
+            },
+            {
+                "name" : "Artificial Intelligence",
+                "description" : "Machine learning (ML) is the study of computer ",
+                "img" : "https://images.newscientist.com/wp-content/uploads/2021/04/21160754/21-april_pepper-the-robot.jpg"
+            },
+            {
+                "name" : "Virtual Reality",
+                "description" : "Machine learning (ML) is the study of computer ",
+                "img" : "https://images.newscientist.com/wp-content/uploads/2021/04/21160754/21-april_pepper-the-robot.jpg"
+            },
+            {
+                "name" : "Augmented Reality",
+                "description" : "Machine learning (ML) is the study of computer ",
+                "img" : "https://images.newscientist.com/wp-content/uploads/2021/04/21160754/21-april_pepper-the-robot.jpg"
+            },
+            {
+                "name" : "Meta Verse",
+                "description" : "Machine learning (ML) is the study of computer ",
+                "img" : "https://images.newscientist.com/wp-content/uploads/2021/04/21160754/21-april_pepper-the-robot.jpg"
+            },
+            {
+                "name" : "Blockchain",
+                "description" : "Machine learning (ML) is the study of computer ",
+                "img" : "https://images.newscientist.com/wp-content/uploads/2021/04/21160754/21-april_pepper-the-robot.jpg"
+            },
+            {
+                "name" : "Supplychain",
+                "description" : "Machine learning (ML) is the study of computer ",
+                "img" : "https://images.newscientist.com/wp-content/uploads/2021/04/21160754/21-april_pepper-the-robot.jpg"
+            },
+            {
+                "name" : "Cryptocurrincy",
+                "description" : "Machine learning (ML) is the study of computer ",
+                "img" : "https://images.newscientist.com/wp-content/uploads/2021/04/21160754/21-april_pepper-the-robot.jpg"
+            },
+            {
+                "name" : "Robotics",
+                "description" : "Machine learning (ML) is the study of computer ",
+                "img" : "https://images.newscientist.com/wp-content/uploads/2021/04/21160754/21-april_pepper-the-robot.jpg"
+            }
+        ]
+    }
+]
+}
