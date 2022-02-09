@@ -1,18 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './GlobalComponents/Header';
-import StringConstant from './asset/StringConstant';
-import Footer from './GlobalComponents/Footer';
-import CourseList from './Screen/CourseList';
-import './App.css'
+import logo from "./logo.svg";
+import "./App.css";
+import Header from "./GlobalComponents/Header";
+import StringConstant from "./asset/StringConstant";
+import Footer from "./GlobalComponents/Footer";
+import CourseList from "./Screen/CourseList";
+import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import AboutUs from "./Screen/AboutUs";
 // import { StringConstant } from './asset/StringConstant';
 
 function App() {
   return (
     <div className="App">
-      <Header text={StringConstant.heading} />
-      <CourseList />
-      <Footer text={StringConstant.footnote}/>
+      {/* <BrowserRouter> */}
+        <Header text={StringConstant.heading} />
+        {/* <Routes> */}
+          {/* <Route path="/" element={<CourseList />} /> */}
+          {/* <Route path="about" element={<AboutUs />} /> */}
+        {/* </Routes> */}
+        <CourseList />
+        <Footer text={StringConstant.footnote} />
+      {/* </BrowserRouter> */}
     </div>
   );
 }

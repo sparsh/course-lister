@@ -1,4 +1,5 @@
 import React from 'react';
+import Heading from '../../GlobalComponents/Heading';
 import CourseItem from './component/CourseItem';
 import './style.css'
 
@@ -12,7 +13,7 @@ const CourseList = () => {
             {
                     sectionList.map((section, index) => (
                         <div>
-                            {section.sectionName}
+                            <Heading text= {section.sectionName} />
                             <div className='course-item-container response-course-item'>
                                 {section.courseList.map(item => <CourseItem {...item} />)}
                             </div>
