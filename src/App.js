@@ -13,6 +13,7 @@ function App() {
     <div className="App">
       {/* <BrowserRouter> */}
         <Header text={StringConstant.heading} />
+        
         {/* <Routes> */}
           {/* <Route path="/" element={<CourseList />} /> */}
           {/* <Route path="about" element={<AboutUs />} /> */}
