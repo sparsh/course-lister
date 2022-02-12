@@ -3,3 +3,8 @@ body {
   background-color: #ee6002;
   margin: 0;
 }
+
+
+* {
+  border: solid 1px black;
+}

@@ -5,7 +5,6 @@ import StringConstant from "./asset/StringConstant";
 import Footer from "./GlobalComponents/Footer";
 import CourseList from "./Screen/CourseList";
 import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AboutUs from "./Screen/AboutUs";
 // import { StringConstant } from './asset/StringConstant';
 

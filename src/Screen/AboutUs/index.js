@@ -1,13 +1,12 @@
-import { useNavigate } from "react-router-dom";
+
 
 import React from 'react';
 const AboutUs = () => {
 
-    const navigate = useNavigate();
 
     const goBack = (e) => {
         console.log("the event is ", e)
-        navigate("/")
+        // navigate("/")
     }
 
     return(

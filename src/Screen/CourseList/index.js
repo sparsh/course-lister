@@ -2,12 +2,14 @@ import React from 'react';
 import Heading from '../../GlobalComponents/Heading';
 import CourseItem from './component/CourseItem';
 import './style.css'
+import { getSectionList } from './utils';
 
 const json = require('../../asset/CourseList.json')
 
 
 const CourseList = () => {
-    const sectionList = json.section;
+    const flatList = json.courseList;
+    const sectionList =  getSectionList (flatList);
     return (
         <div className="course-list-container">
             {
