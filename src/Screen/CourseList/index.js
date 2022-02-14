@@ -1,4 +1,5 @@
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
+import { useSelector } from 'react-redux';
 import Heading from '../../GlobalComponents/Heading';
 import CourseItem from './component/CourseItem';
 import SectionList from './component/SectionList';
@@ -11,18 +12,18 @@ const json = require('../../asset/CourseList.json')
 const CourseList = () => {
     const courseListRef = useRef([]);
     const sectionList =  getSectionList(json.courseList);
-    // const [clickedSection, setClickedSection] = useState();
 
-    const onClickSection = (sectionIndex) => {
-        console.log("the clicked section index is ", sectionIndex);
-        console.log("The ref is ", courseListRef);
-        courseListRef.current[sectionIndex].scrollIntoView();
-        // setClickedSection(sectionIndex)
-    }
+    const sectionName = useSelector(state => state);
+
+    useEffect(() => {
+        console.log("The section name is ", sectionName);
+
+        courseListRef.current[sectionName].scrollIntoView();
+    }, [sectionName])
 
     return (
         <div className="course-list-container">
-            <SectionList onClickSection={onClickSection} sectionList={sectionList} />
+            <SectionList sectionList={sectionList} />
             {
                     sectionList.map((section, index) => (
                         <div ref={(ref) => {

@@ -6,6 +6,8 @@ import Footer from "./GlobalComponents/Footer";
 import CourseList from "./Screen/CourseList";
 import "./App.css";
 import AboutUs from "./Screen/AboutUs";
+import { Provider } from "react-redux";
+import store from "./store";
 // import { StringConstant } from './asset/StringConstant';
 
 function App() {
@@ -18,7 +20,9 @@ function App() {
           {/* <Route path="/" element={<CourseList />} /> */}
           {/* <Route path="about" element={<AboutUs />} /> */}
         {/* </Routes> */}
-        <CourseList />
+          <Provider store = {store}>
+            <CourseList />
+          </Provider>
         <Footer text={StringConstant.footnote} />
       {/* </BrowserRouter> */}
     </div>
